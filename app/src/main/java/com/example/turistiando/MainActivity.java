@@ -1,7 +1,10 @@
 package com.example.turistiando;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.support.annotation.NonNull;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -17,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ActionBar barra = getSupportActionBar();
+        // cambiando el color del actionbar
+        ColorDrawable colorBarra = new ColorDrawable(Color.parseColor("#ed7607"));
+        barra.setBackgroundDrawable(colorBarra);
+
 
     }
 
