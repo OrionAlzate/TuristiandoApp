@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">Turistiando</string>
     <string name="option1">Acerca de</string>
-    <string name="option2">Ingles</string>
+    <string name="option2">Inglés</string>
     <string name="option3">Español</string>
+    <string name="hola">Bienvenido!</string>
+    <string name="hotels">Hoteles</string>
+    <string name="restaurant">Restaurantes</string>
+    <string name="profile">Mi perfil</string>
+    <string name="Textprofile">PERFIL OCUPACIONAL \n \nAdministrar, controlar y evaluar programas, proyectos y actividades propias del Área. Gestionar proyectos de investigación y desarrollo de software. Desarrollar criterios de evaluación y selección de plataformas tecnológicas para la creación, implementación y mantenimiento de sistemas de información.</string>
+
 
 
 </resources>

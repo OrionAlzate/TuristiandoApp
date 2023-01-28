@@ -15,10 +15,10 @@
         android:src="@drawable/hotel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias=".2"
+        app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias=".5" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <ImageButton
         android:id="@+id/icon2"
@@ -28,22 +28,20 @@
         android:src="@drawable/comida"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias=".2"
+        app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iconoHotel"
-        app:layout_constraintVertical_bias=".03" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <TextView
         android:id="@+id/hoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="Hoteles"
-
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/hotels"
         android:textColor="#fff"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.142"
+        android:textSize="25dp"
         app:layout_constraintStart_toEndOf="@+id/iconoHotel"
         app:layout_constraintTop_toTopOf="@+id/iconoHotel" />
 
@@ -51,13 +49,12 @@
         android:id="@+id/restaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Restaurantes"
-        android:textColor="#fff"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
 
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.258"
+        android:text="@string/restaurant"
+        android:textColor="#fff"
+        android:textSize="25dp"
         app:layout_constraintStart_toEndOf="@+id/icon2"
         app:layout_constraintTop_toTopOf="@+id/icon2" />
 

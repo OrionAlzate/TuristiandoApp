@@ -5,5 +5,14 @@
     <string name="option1">About Me</string>
     <string name="option2">English</string>
     <string name="option3">Spanish</string>
+    <string name="hola">Welcome!</string>
+    <string name="hotels">Hotels</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="profile">My Profile</string>
+    <string name="Textprofile">OCCUPATIONAL PROFILE \n \nManage, control and evaluate programs, projects and activities of the Area. Manage software research and development projects. Develop evaluation criteria and selection of technological platforms for the creation, implementation and maintenance of information systems.</string>
+
+
+
+
 
 </resources>

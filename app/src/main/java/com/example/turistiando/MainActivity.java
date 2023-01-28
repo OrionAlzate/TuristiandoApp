@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         switch (itemSeleccionado){
             case(R.id.option1):
-                
+
                 Intent intent = new Intent(getApplicationContext(),AcercaDe.class);
                 startActivity(intent);
 
