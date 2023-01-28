@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Turistianding</string>
+    <string name="option1">About Me</string>
+    <string name="option2">English</string>
+    <string name="option3">Spanish</string>
+
+</resources>
