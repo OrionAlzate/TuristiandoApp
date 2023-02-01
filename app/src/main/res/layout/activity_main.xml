@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/iconoHotel"
+        android:id="@+id/iconoHoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="20dp"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.7" />
 
     <ImageButton
-        android:id="@+id/icon2"
+        android:id="@+id/iconRestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="20dp"
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iconoHotel"
+        app:layout_constraintTop_toBottomOf="@+id/iconoHoteles"
         app:layout_constraintVertical_bias="0.1" />
 
     <TextView
@@ -42,8 +42,8 @@
         android:text="@string/hotels"
         android:textColor="#fff"
         android:textSize="25dp"
-        app:layout_constraintStart_toEndOf="@+id/iconoHotel"
-        app:layout_constraintTop_toTopOf="@+id/iconoHotel" />
+        app:layout_constraintStart_toEndOf="@+id/iconoHoteles"
+        app:layout_constraintTop_toTopOf="@+id/iconoHoteles" />
 
     <TextView
         android:id="@+id/restaurantes"
@@ -55,8 +55,8 @@
         android:text="@string/restaurant"
         android:textColor="#fff"
         android:textSize="25dp"
-        app:layout_constraintStart_toEndOf="@+id/icon2"
-        app:layout_constraintTop_toTopOf="@+id/icon2" />
+        app:layout_constraintStart_toEndOf="@+id/iconRestaurante"
+        app:layout_constraintTop_toTopOf="@+id/iconRestaurante" />
 
 
 </android.support.constraint.ConstraintLayout>

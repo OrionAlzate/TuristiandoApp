@@ -4,19 +4,22 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.support.annotation.NonNull;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
+import android.view.View;
+import android.widget.ImageButton;
 
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
     // atributos
+    ImageButton btnHoteles;
+    ImageButton btnRestaurante;
+
 
     // metodos
     @Override
@@ -29,6 +32,22 @@ public class MainActivity extends AppCompatActivity {
         // asignar un color el color del actionbar
         ColorDrawable colorBarra = new ColorDrawable(Color.parseColor("#ed7607"));
         barra.setBackgroundDrawable(colorBarra);
+
+        //Asociando los botones a eventos de click (escuchar click)
+        btnHoteles = findViewById(R.id.iconoHoteles);
+        btnRestaurante = findViewById(R.id.iconRestaurante);
+
+        // añadir evento click al btnHoteles
+        btnHoteles.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intentHoteles = new Intent(MainActivity.this, Hoteles.class);
+                startActivity(intentHoteles);
+
+            }
+        });
+
 
 
     }
