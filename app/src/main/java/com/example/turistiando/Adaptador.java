@@ -18,6 +18,7 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.viewHolder>{
 
     //Constructor
     public Adaptador(ArrayList<Hotel> listaHoteles) {
+
         this.listaHoteles = listaHoteles;
     }
 
@@ -38,6 +39,7 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.viewHolder>{
 
     @Override
     public int getItemCount() {
+
         return listaHoteles.size();
     }
 

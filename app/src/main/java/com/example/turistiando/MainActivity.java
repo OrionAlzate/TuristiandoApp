@@ -48,6 +48,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnRestaurante.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentRest = new Intent(MainActivity.this, Restaurantes.class);
+                startActivity(intentRest);
+
+            }
+        });
+
+
+
 
 
     }
@@ -72,9 +83,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     //metodo de creacion del menu que creamos con xml
-    public boolean onCreateOptionsMenu(Menu menudo) {
+    public boolean onCreateOptionsMenu(Menu menu) {
         //cargar el menu desde los recursos
-        getMenuInflater().inflate(R.menu.menu,menudo);
+        getMenuInflater().inflate(R.menu.menu,menu);
         return true;
     }
 
@@ -87,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         switch (itemSeleccionado){
             case(R.id.option1):
 
-                Intent intent = new Intent(getApplicationContext(),AcercaDe.class);
+                Intent intent = new Intent(MainActivity.this,AcercaDe.class);
                 startActivity(intent);
 
                 break;

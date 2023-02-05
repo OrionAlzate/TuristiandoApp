@@ -25,9 +25,9 @@ public class Hoteles extends AppCompatActivity {
     public void IniciarRecycler(){
     listaHoteles = new ArrayList<Hotel>();
     listaHoteles.add(new Hotel(R.drawable.hotel3,"Hotel 12-56","$150.000"));
-    listaHoteles.add(new Hotel(R.drawable.hotel2,"Hotel Balcones","$140.000"));
+    listaHoteles.add(new Hotel(R.drawable.hotel4,"Hotel Balcones","$140.000"));
     listaHoteles.add(new Hotel(R.drawable.hotel1,"Hotel Campestre","$185.000"));
-    listaHoteles.add(new Hotel(R.drawable.hotel4,"Hotel Zona Rosa","$225.000"));
+    listaHoteles.add(new Hotel(R.drawable.hotel2,"Hotel Zona Rosa","$225.000"));
 
     // adaptador para el recyclerView
     Adaptador adaptador = new Adaptador(listaHoteles);
