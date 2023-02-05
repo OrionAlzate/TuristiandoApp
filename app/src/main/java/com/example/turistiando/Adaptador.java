@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -43,7 +44,7 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.viewHolder>{
     public class viewHolder extends RecyclerView.ViewHolder {
 
         //atribuos
-        ImageButton fotoHotel;
+        ImageView fotoHotel;
         TextView nombreHotel;
         TextView precioHotel;
 
@@ -54,7 +55,7 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.viewHolder>{
 
             fotoHotel = itemView.findViewById(R.id.fotoHotel);
             nombreHotel = itemView.findViewById(R.id.nombreHotel);
-            fotoHotel = itemView.findViewById(R.id.precioHotel);
+            precioHotel = itemView.findViewById(R.id.precioHotel);
 
 
         }
