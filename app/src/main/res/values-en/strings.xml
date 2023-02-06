@@ -10,9 +10,11 @@
     <string name="restaurant">Restaurant</string>
     <string name="profile">My Profile</string>
     <string name="Textprofile">OCCUPATIONAL PROFILE \n \nManage, control and evaluate programs, projects and activities of the Area. Manage software research and development projects. Develop evaluation criteria and selection of technological platforms for the creation, implementation and maintenance of information systems.</string>
+    <string name="titiribiContent">Titiribí is a municipality located in the southwestern subregion of the department of Antioquia. <br>It was founded on April 17, 1775 by the Cacique Titiribí, from whom the town derives its name.</br>
+        <br> In other times it was important for mining, especially gold, which attracted important families from Medellín and the world.</br>
+        <br></br>
+    <br>Te invite you to learn more!</br>  </string>
 
-
-
-
+    <string name="titirubiTitle">Titiribí</string>
 
 </resources>

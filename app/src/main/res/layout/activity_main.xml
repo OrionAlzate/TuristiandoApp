@@ -4,8 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bckgrund"
+    android:background="@drawable/main_cover"
     tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/viewMain"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ronded_background"
+        android:backgroundTint="#4B64316A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/titiribiTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titirubiTitle"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viewMain"
+        app:layout_constraintVertical_bias=".08"
+
+        />
+
+    <TextView
+        android:id="@+id/contentTextTitiribi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/titiribiContent"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/viewMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viewMain"
+        app:layout_constraintVertical_bias="0.7"
+
+        />
 
     <ImageButton
         android:id="@+id/iconoHoteles"
@@ -18,7 +68,8 @@
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7" />
+        app:layout_constraintVertical_bias="0.813"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/iconRestaurante"
@@ -31,7 +82,8 @@
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iconoHoteles"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintVertical_bias="0.058"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/hoteles"
@@ -41,7 +93,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/hotels"
         android:textColor="#fff"
-        android:textSize="25dp"
+        android:textSize="25sp"
         app:layout_constraintStart_toEndOf="@+id/iconoHoteles"
         app:layout_constraintTop_toTopOf="@+id/iconoHoteles" />
 
@@ -54,9 +106,11 @@
 
         android:text="@string/restaurant"
         android:textColor="#fff"
-        android:textSize="25dp"
+        android:textSize="25sp"
         app:layout_constraintStart_toEndOf="@+id/iconRestaurante"
         app:layout_constraintTop_toTopOf="@+id/iconRestaurante" />
+
+
 
 
 </android.support.constraint.ConstraintLayout>
