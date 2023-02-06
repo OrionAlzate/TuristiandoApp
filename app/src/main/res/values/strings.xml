@@ -3,7 +3,9 @@
     <string name="option1">Acerca de mi</string>
     <string name="option2">Inglés</string>
     <string name="option3">Español</string>
-    <string name="hola">Bienvenido!</string>
+    <string name="hola">Bienvenido a...</string>
+    <string name="titiribi">Titiribi</string>
+
     <string name="hotels">Hoteles</string>
     <string name="restaurant">Restaurantes</string>
     <string name="profile">Mi perfil</string>

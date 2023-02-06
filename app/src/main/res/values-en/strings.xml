@@ -5,7 +5,8 @@
     <string name="option1">About Me</string>
     <string name="option2">English</string>
     <string name="option3">Spanish</string>
-    <string name="hola">Welcome!</string>
+    <string name="hola">Welcome to...</string>
+    <string name="titiribi">Titiribi</string>
     <string name="hotels">Hotels</string>
     <string name="restaurant">Restaurant</string>
     <string name="profile">My Profile</string>
