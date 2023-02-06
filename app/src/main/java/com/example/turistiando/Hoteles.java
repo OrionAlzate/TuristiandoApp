@@ -29,10 +29,10 @@ public class Hoteles extends AppCompatActivity {
     listaHoteles.add(new Hotel(R.drawable.hotel1,"Hotel Campestre","$185.000"));
     listaHoteles.add(new Hotel(R.drawable.hotel2,"Hotel Zona Rosa","$225.000"));
 
-    // adaptador para el recyclerView
-    Adaptador adaptador = new Adaptador(listaHoteles);
+//      adaptador para el recyclerView
+        Adaptador adaptador = new Adaptador(listaHoteles);
         RecyclerView recyclerView = findViewById(R.id.recycler);
-//        recyclerView.setHasFixedSize(true);
+//      recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         recyclerView.setAdapter(adaptador);
 

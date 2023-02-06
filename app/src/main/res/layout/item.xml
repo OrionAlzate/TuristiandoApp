@@ -26,14 +26,16 @@
             android:id="@+id/layoutCardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="@+id/nombreHotel"
+            app:layout_constraintTop_toBottomOf="@+id/nombreHotel">
 
 
             <ImageView
                 android:id="@+id/fotoHotel"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
                 android:padding="5dp"
                 android:src="@drawable/hotel3"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -42,14 +44,13 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias=".0"
-
-
                 />
 
             <TextView
                 android:id="@+id/nombreHotel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:gravity="center"
                 android:text="NOMBRE DEL HOTEL"
                 android:textAlignment="center"
@@ -66,7 +67,7 @@
                 android:id="@+id/precioHotel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
+                android:padding="5dp"
                 android:gravity="center"
                 android:text="$ 150000 COP"
                 android:textAlignment="center"
