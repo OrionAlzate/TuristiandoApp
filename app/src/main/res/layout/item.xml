@@ -35,7 +35,9 @@
                 android:id="@+id/fotoHotel"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
                 android:padding="5dp"
                 android:src="@drawable/hotel3"
                 app:layout_constraintBottom_toBottomOf="parent"
