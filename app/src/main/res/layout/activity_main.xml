@@ -12,7 +12,7 @@
         android:layout_width="350dp"
         android:layout_height="400dp"
         android:layout_marginTop="40dp"
-        android:background="@drawable/ronded_background"
+        android:background="@drawable/background_color"
         android:backgroundTint="#4B64316A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
